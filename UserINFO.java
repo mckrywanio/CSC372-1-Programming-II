@@ -38,24 +38,24 @@ import java.util.Scanner;
 
 public class UserINFO {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scnr = new Scanner(System.in);
 
         System.out.print("Please Enter first name: ");
-        String firstName = scanner.nextLine();
+        String firstName = scnr.nextLine();
 
         System.out.print("Please Enter Last name: ");
-        String lastName = scanner.nextLine();
+        String lastName = scnr.nextLine();
 
         System.out.print("Please Enter Address: ");
-        String streetAddress = scanner.nextLine();
+        String streetAddress = scnr.nextLine();
 
         System.out.print("Please Enter City: ");
-        String city = scanner.nextLine();
+        String city = scnr.nextLine();
 
         System.out.print("Please Enter Zip Code: ");
-        String zipCode = scanner.nextLine();
+        String zipCode = scnr.nextLine();
 
-        scanner.close();
+        scnr.close();
 
         System.out.println("\nUsers Information: ");
         System.out.println("First Name: " + firstName);
