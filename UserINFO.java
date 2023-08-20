@@ -1,10 +1,8 @@
-
-
-
-
-
-
-/////////////////////////////////
+//---------------------------------
+// Program Name:UserINFO
+//Author:Michael C Krywanio
+//Date: Aug 20 2023
+//---------------------------------
 //PsudoCode
 //Start
 //1. Import scanner inital
@@ -33,9 +31,24 @@
 //17. Print City: city
 //18. Print Zip Code: zipCode
 //End
-
+//-----------------------------------
+//Program Inputs: firstName, LastName, streetAddress, city, zipCode
+//Program Outputs: Please Enter first name:
+// Please Enter last Name:
+// Please Enter Address:
+// Please Enter City:
+// Please Enter Zip Code:
+//
+// Users Information:
+// First Name: firstName
+// Last Name: lastName
+// Address: streetAddress
+// City: city
+// Zip Code: zipCode
+//-------------------------------------
 import java.util.Scanner;
 
+// Scanner imported so user can imput information.
 public class UserINFO {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
@@ -54,9 +67,9 @@ public class UserINFO {
 
         System.out.print("Please Enter Zip Code: ");
         String zipCode = scnr.nextLine();
-
+// Once all the information has been entered you close the scanner class and proceed to output information.
         scnr.close();
-
+// Output of inputed information
         System.out.println("\nUsers Information: ");
         System.out.println("First Name: " + firstName);
         System.out.println("Last Name: " + lastName);
