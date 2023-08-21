@@ -48,7 +48,7 @@
 //-------------------------------------
 import java.util.Scanner;
 
-// Scanner imported so user can imput information.
+// Scanner imported so user can input information.
 public class UserINFO {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
