@@ -1,7 +1,7 @@
 //---------------------------------
 //Program Name:CriticalThinkingMod#3
 //Author:Michael C Krywanio
-//Date: SEP 1 2023
+//Date: SEP 3 2023
 //---------------------------------
 //PsudoCode
 //START
@@ -19,8 +19,8 @@
 //  OUTPUT taxWithheld
 //END
 //-----------------------------------
-//Program Inputs: 
-//Program Outputs:
+//Program Inputs: Weekly Income
+//Program Outputs: Your average weekly tax withholding is:
 //-------------------------------------
 
 import java.util.Scanner;
@@ -35,6 +35,8 @@ public class TaxCalculator2 {
 
         double taxWithheld = calculateTax(weeklyIncome);
         System.out.printf("Your average weekly tax withholding is: $%.2f%n", taxWithheld);
+
+        scanner.close();
     }
 
     public static double calculateTax(double weeklyIncome) {
