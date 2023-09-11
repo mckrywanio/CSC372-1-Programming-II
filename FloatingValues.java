@@ -56,7 +56,7 @@ public class FloatingValues {
         double total = 0.0;
         double maximum = Double.MIN_VALUE; // A very small initial value
         double minimum = Double.MAX_VALUE; // A very large initial value
-        System.out.println("This program will compute the max, min, average, total, and interst on total at 20% of 5 floating point numbers you input.");
+        System.out.println("This program will compute the max, min, average, total, and interest on total at 20% of 5 floating point numbers you input.");
         while (count < 5) {
             System.out.print("Enter a floating-point value (" + (5 - count) + " left): ");
             double value = scanner.nextDouble();
