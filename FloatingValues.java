@@ -31,8 +31,19 @@
 
 //END
 //-----------------------------------
-//Program Inputs: Weekly Income
-//Program Outputs: Your average weekly tax withholding is:
+//Program Inputs: 5 floating point numbers
+//Program Outputs: 
+//This program will compute the max, min, average, total, and interst on total at 20% of 5 floating point numbers you input.
+//Enter a floating-point value (5 left):
+//Enter a floating-point value (4 left):
+//Enter a floating-point value (3 left):
+//Enter a floating-point value (2 left):
+//Enter a floating-point value (1 left): 
+//Total:
+//Average:
+//Maximum:
+//Minimum:
+//Interest on total at 20%:
 //-------------------------------------
 
 import java.util.Scanner;
@@ -45,7 +56,7 @@ public class FloatingValues {
         double total = 0.0;
         double maximum = Double.MIN_VALUE; // A very small initial value
         double minimum = Double.MAX_VALUE; // A very large initial value
-        System.out.print("This program will compute the max, min, average, total, and interst on total at 20%.");
+        System.out.println("This program will compute the max, min, average, total, and interst on total at 20% of 5 floating point numbers you input.");
         while (count < 5) {
             System.out.print("Enter a floating-point value (" + (5 - count) + " left): ");
             double value = scanner.nextDouble();
