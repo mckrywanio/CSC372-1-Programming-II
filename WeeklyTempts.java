@@ -36,7 +36,7 @@
 //    PROMPT user for a day or 'week' or 'exit'
 //    Convert user input to lowercase and store in 'input'
 
-//    IF 'input' is "exit":
+//    IF 'input' is "exit": 
 //        BREAK
 //    ELSE IF 'input' is "week":
 //        CALL printWeeklyData
