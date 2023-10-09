@@ -1,3 +1,45 @@
+//---------------------------------
+//Program Name:Programming 1 Portfolio Project
+//Author:Michael C Krywanio
+//Date: SEP 17 2023
+//---------------------------------
+//PsudoCode
+// CLASS Automobile:
+
+//     PRIVATE:
+//         string make
+//         string model
+//         string color
+//         int year
+//         int mileage
+
+//     PUBLIC:
+
+//     METHOD Constructor():
+//         make = ""
+//         model = ""
+//         color = ""
+//         year = 0
+//         mileage = 0
+//     END METHOD
+
+//     METHOD Constructor(param_make, param_model, param_color, param_year, param_mileage):
+//         make = param_make
+//         model = param_model
+//         color = param_color
+//         year = param_year
+//         mileage = param_mileage
+//     END METHOD
+
+//     METHOD toString() -> string:
+//         RETURN make + ", " + model + ", " + color + ", " + year + ", " + mileage
+//     END METHOD
+
+// END CLASS
+
+//END MAIN
+
+//-------------------------------------
 public class Automobile {
     private String make;
     private String model;

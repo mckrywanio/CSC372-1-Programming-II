@@ -1,3 +1,94 @@
+//---------------------------------
+//Program Name:Programming 1 Portfolio Project
+//Author:Michael C Krywanio
+//Date: 08 OCT 2023
+//---------------------------------
+//PsudoCode
+// CLASS AutomobileInventory:
+
+//     PRIVATE:
+//         LIST automobiles = new LIST of Automobile
+
+//     PUBLIC:
+
+//     METHOD main():
+//         LOOP forever (until user decides to exit):
+//             DISPLAY "Choose option: Add, List, Update, Remove, Exit"
+//             READ user_choice
+//             IF user_choice is "Add":
+//                 CALL addVehicle()
+//             ELSE IF user_choice is "List":
+//                 CALL listVehicleInformation()
+//             ELSE IF user_choice is "Update":
+//                 CALL updateVehicle()
+//             ELSE IF user_choice is "Remove":
+//                 CALL removeVehicle()
+//             ELSE IF user_choice is "Exit":
+//                 ASK user if they want to save to a file
+//                 IF user wants to save:
+//                     CALL saveAutosToFile()
+//                 END the loop
+//             END IF
+//         END LOOP
+//     END METHOD
+
+//     METHOD addVehicle():
+//         TRY:
+//             DISPLAY "Enter vehicle details: make, model, color, year, mileage"
+//             READ vehicle details
+//             CREATE new Automobile with read details
+//             ADD new Automobile to the automobiles list
+//             RETURN success message
+//         CATCH any error:
+//             RETURN failure message with error details
+//     END METHOD
+
+//     METHOD listVehicleInformation() -> LIST:
+//         TRY:
+//             FOR each automobile in automobiles:
+//                 DISPLAY automobile details
+//             END FOR
+//         CATCH any error:
+//             RETURN failure message with error details
+//     END METHOD
+
+//     METHOD updateVehicle():
+//         TRY:
+//             DISPLAY "Enter index of the vehicle to update"
+//             READ index
+//             DISPLAY current details of selected automobile
+//             DISPLAY "Enter new details (leave blank to keep current)"
+//             READ new details
+//             UPDATE the automobile with new details
+//             RETURN success message
+//         CATCH any error:
+//             RETURN failure message with error details
+//     END METHOD
+
+//     METHOD removeVehicle():
+//         TRY:
+//             DISPLAY "Enter index of the vehicle to remove"
+//             READ index
+//             REMOVE automobile at given index
+//             RETURN success message
+//         CATCH any error:
+//             RETURN failure message with error details
+//     END METHOD
+
+//     METHOD saveAutosToFile():
+//         TRY:
+//             FOR each automobile in automobiles:
+//                 WRITE automobile details to file "C:\Temp\Autos.txt"
+//             END FOR
+//             RETURN success message
+//         CATCH any error:
+//             RETURN failure message with error details
+//     END METHOD
+
+// END CLASS
+//END MAIN
+
+//-------------------------------------
 import java.util.Scanner;
 import java.io.FileWriter;
 import java.io.FileReader;
