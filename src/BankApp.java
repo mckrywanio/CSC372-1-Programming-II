@@ -5,7 +5,7 @@
 //----------------------------------------------------
 //----------------------------------------------------
 //Program Name: BankApp
-//Description: A GUI-based bank balance application
+//Description: A GUI-based bank balance/withdrawl/deposit application
 //----------------------------------------------------
 // CLASS BankApp:
 
